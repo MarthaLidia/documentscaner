@@ -41,7 +41,7 @@ abstract class BaseScannerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        triggerFullscreen()
+        //triggerFullscreen()
 
         binding = ActivityScannerBinding.inflate(layoutInflater)
 

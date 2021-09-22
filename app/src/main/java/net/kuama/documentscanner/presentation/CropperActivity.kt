@@ -29,7 +29,7 @@ class CropperActivity : AppCompatActivity() {
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        triggerFullscreen()
+        //triggerFullscreen()
         binding = ActivityCropperBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
