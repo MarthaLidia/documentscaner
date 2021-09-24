@@ -12,6 +12,7 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
+import androidx.lifecycle.observe
 import net.kuama.documentscanner.databinding.ActivityCropperBinding
 import net.kuama.documentscanner.extensions.outputDirectory
 import net.kuama.documentscanner.extensions.toByteArray
